@@ -1,0 +1,3 @@
+-- Sustituye este archivo por tu dump SQL.
+-- Se ejecuta automáticamente solo cuando el volumen mysql-data está vacío.
+-- La base de datos la crea MySQL usando MYSQL_DATABASE definido en .env.

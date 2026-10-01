@@ -1,0 +1,17 @@
+-- 1. Funciones numéricas
+-- 1.1. Truncar el precio de cada producto a 1 decimal
+select nombre, truncate(precio,1) from productos;
+-- 1.2. Redondear hacia abajo (FLOOR) y hacia arriba (CEIL) el precio
+-- 1.3. Calcular el precio con IVA (21%)
+-- 1.4. Descuento del 15% aplicado sobre el precio
+-- 1.5. Desviación estándar y varianza del precio del catálogo
+-- 1.6. Diferencia absoluta frente a un stock objetivo (600 uds.)
+-- 2. Funciones de cadena
+-- 2.1. Concatenar categoría y nombre con separador usando CONCAT_WS
+-- 2.2. Extraer una subcadena del nombre de cada producto (pos. 4, longitud 5)
+-- 2.3. Buscar la posición de una palabra dentro del nombre (por ejemplo 'Pro')
+-- 2.3. Buscar la posición de una palabra dentro del nombre (por ejemplo 'Pro')
+-- 2.4. Invertir el nombre de cada producto
+-- 2.5. Rellenar a la izquierda el id_producto con ceros hasta 5 dígitos
+-- 2.6. Enmascarar el nombre de cliente con asteriscos según su longitud
+-- 2.7. Reemplazar el símbolo '@' en el email para mostrarlo “ofuscado”
